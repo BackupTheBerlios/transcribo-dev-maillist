@@ -1,0 +1,56 @@
+From fhaxbox66 at googlemail.com  Thu Aug 13 20:38:29 2009
+From: fhaxbox66 at googlemail.com (Leo)
+Date: Thu, 13 Aug 2009 20:38:29 +0200
+Subject: [Transcribo-dev] WG: First public alpha release of Transcribo - a
+	plain text renderer for rST and other input formats
+Message-ID: <JNEPIPKLMDDNHIAOHDNBKECFCDAA.fhaxbox66@googlemail.com>
+
+
+
+-----Urspr?ngliche Nachricht-----
+Von: Leo [mailto:fhaxbox66 at googlemail.com]
+Gesendet: Donnerstag, 13. August 2009 11:00
+An: Docutils-users
+Betreff: First public alpha release of Transcribo - a plain text
+renderer for rST and other input formats
+
+
+Hi,
+
+Transcribo-0.5 is out. Visit http://pypi.python.org/pypi/Transcribo/ for
+more info. Alongside with the Docutils writer, there is now a module to
+process plain text input. The command line tools provide some control on the
+output. In particular, the translator (useful for embossing Braille) is
+configurable.
+
+The rST module implements a reasonable subset of rST which now includes
+section numbers, line blocks, inline literals, lists and enumerations and
+topics. Many features, including control of the renderer through rST
+directives, page references and TOCs with page numbers are planned.
+
+While I am not aware of any severe bugs, some features would benefit from
+refinement. Also, the documentation (planned with Sphinx) is sparse. But the
+command line tools should be self-explanatory to anyone, and the renderer's
+API is illustrated by the rST and plaintext frontend as well as a
+stand-alone test script.
+
+ Have fun!
+
+Leo
+
+
+
+From fhaxbox66 at googlemail.com  Sat Aug 29 17:07:55 2009
+From: fhaxbox66 at googlemail.com (Leo)
+Date: Sat, 29 Aug 2009 17:07:55 +0200
+Subject: [Transcribo-dev] Transcribo-0.5.2 released
+Message-ID: <JNEPIPKLMDDNHIAOHDNBMEFNCDAA.fhaxbox66@googlemail.com>
+
+This is another bug fix release. test.py works again after changing some
+dictionary keys in styles.py. In addition, the scripts are not installed in
+Python's script directory.
+
+Leo
+
+
+

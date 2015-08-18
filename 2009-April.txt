@@ -1,0 +1,19 @@
+From fhaxbox66 at googlemail.com  Sun Apr 19 15:25:53 2009
+From: fhaxbox66 at googlemail.com (Leo)
+Date: Sun, 19 Apr 2009 15:25:53 +0200
+Subject: [Transcribo-dev] Transcribo's files are now in the public repository
+Message-ID: <JNEPIPKLMDDNHIAOHDNBEECBCCAA.fhaxbox66@googlemail.com>
+
+Hi,
+
+I have just pushed the first snapshot of Transcribo. While the renderer
+works surprisingly well (just run test/test.py to see a nested enumeration),
+the writer for ducutils does not do anything yet. This is simply because I
+haven't started working on it.
+
+Any feedback is welcome.
+
+Leo
+
+
+
